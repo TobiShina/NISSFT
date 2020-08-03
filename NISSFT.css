@@ -1,5 +1,5 @@
 *{
-	font-family:cursive;
+	font-family:sans-serif;
   margin: 0;
 	border: 0;
 	padding: 0;
@@ -71,3 +71,5 @@ table .col{
 .pos:hover td{
 	color: #000000;
 }
+
+.jumbotext{font-family:serif;}
