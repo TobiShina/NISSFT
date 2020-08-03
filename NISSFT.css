@@ -25,13 +25,13 @@ th, td {
 
 th{
 	background-color: black;
-	color: #ffe221;
+	color:azure;
 }
 
 .headin{
 	text-align: center;
 	text-decoration: none;
-	color: #ffe221;
+	color:black;
 	margin: 30px;
 	display: block;
 }
@@ -41,7 +41,7 @@ th{
 }
 
 .wpos td{
-	color: #77ff21;
+	color:black;
 }
 
 .pos{
@@ -49,7 +49,7 @@ th{
 }
 
 .pos td{
-	color: #ff7b21;
+	color:black;
 }
 
 table .col{
@@ -65,7 +65,7 @@ table .col{
 }
 
 .pos:hover{
-	background-color: #ff7b21;
+	background-color: #77ff21;
 }
 
 .pos:hover td{
@@ -73,3 +73,13 @@ table .col{
 }
 
 .jumbotext{font-family:serif;}
+
+.navbarContainer{
+    background: rgb(0,36,7);
+background: linear-gradient(90deg, rgba(0,36,7,1) 0%, rgba(16,121,9,1) 35%, rgba(3,255,0,1) 100%);
+}
+
+.firstContainer{
+    background: rgb(227,232,232);
+background: radial-gradient(circle, rgba(227,232,232,1) 0%, rgba(227,240,241,1) 100%);
+}
