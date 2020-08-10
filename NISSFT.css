@@ -83,3 +83,18 @@ background: linear-gradient(90deg, rgba(0,36,7,1) 0%, rgba(16,121,9,1) 35%, rgba
     background: rgb(227,232,232);
 background: radial-gradient(circle, rgba(227,232,232,1) 0%, rgba(227,240,241,1) 100%);
 }
+
+footer.footsy{background-color: #666;}
+
+footer.footsy h1 {color: #fff; font-size: 35px;}
+
+footer.footsy ul {list-style: none; text-align: left; padding-left: 10%;}
+
+footer.footsy ul li {color: #fff; font-size: 22px; line-height: 1.5;}
+
+span.fa{font-size:60px;color:#fff;}
+
+@media screen and (max-width: 680px) {
+    div.mobileStack{width: 50%; display: block;}
+    footer.footsy{width:96%;}
+}
