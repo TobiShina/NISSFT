@@ -184,3 +184,7 @@ $(document).ready(function() {
 - should i put $.ajax method in $(document).ready?
 - $this = $(this); is this correct? should I use $that instead?
 */
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
