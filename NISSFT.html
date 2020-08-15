@@ -55,7 +55,7 @@
   </div>
 </nav>
            <p class="text-uppercase font-weight-bold text-center jumbotext">footy x tech</p>
-           <p class="welcomeNote font-italic text-center"> <sub>NISSFT remains an Educative program for all secondary schools in Nigeria fostering better socio-economic values among the young generation through SPORT and TECH skills. The NISSFT program is divided into two: (1) Football tournament and (2) Tech workshop <br>All football matches to be played within LGA of participating schools while tech workshop will hold within the premises of each school. </sub>
+           <p class="welcomeNote font-italic text-center"> <sub><abbr title="Nationwide Inter-Secondary School Football Tournament">NISSFT</abbr> remains an Educative program for all secondary schools in Nigeria fostering better socio-economic values among the young generation through SPORT and TECH skills. The NISSFT program is divided into two: (1) Football tournament and (2) Tech workshop <br>All football matches to be played within <abbr title="Local Government Area">LGA</abbr> of participating schools while tech workshop will hold within the premises of each school. </sub>
 </p>
           </div>
        </div>
@@ -578,13 +578,13 @@
     <div class="col-6 mobileStack">
           <h1>Company</h1>
         <ul>
-        <li><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        <li><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
   About
 </button></li>
-            <li><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <li><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2">
   Aims objective
 </button></li>
-            <li><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Email: nissft@footyxtech.com Phone: 080536xxxxx">
+            <li><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3">
   Contact us
 </button></li>
         </ul>
@@ -605,6 +605,77 @@
         </div>
     </div>
       </footer>
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">About us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        FOOTY X TECH is a registered company under the Corporate Affairs Commission (RC: 1554376) with the primary motive of improving socio-economic values of Nigerians through technology and sport. By creating tech and sport projects to drive the Nation’s economy to a place of growth.
+NISSFT was created to enlighten and illuminate future stars. The tournament is an educational initiative born out of the burning desire to educate the young minds about the needs and demands of the outside world while using football as a gateway to the heart of the next generation. Football is the most followed sport among young Nigerians; But tech is the future. Hence, the need to teach Secondary School students the basics of web programming and mobile app development through a tech workshop that will hold in each school.
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Goals</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        -	To teach pupils the basics of web programming and mobile app development.
+-	To give pupils a clear path to follow and a platform to build their dreams around technology.
+-	To give pupils an edge in the labour market.
+-	To illuminate and orientate future leaders of Tech and Sport industry.
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Email and Phone</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Email: nissft@footyXtech.com Phone: 08056422xxxx
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+</script>
     <!-- Optional JavaScript -->
       <script type="text/javascript" src="NISSFT.js"></script>
 
